@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.container{
+    height: 750px;
+    /* background-color: aqua; */
+}
+
+.header{
+    height: 50px;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.left{
+    height: 50px;
+    display: flex;
+    /* background-color: blue; */
+}
+
+.leftside{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+
+.rightside{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+}
+
+.midleside{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: chartreuse; */
+}
+
+.right{
+    height: 50px;
+    display: flex;
+    /* background-color: coral; */
+}
+
+.followus{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.headerlogos{
+    height: 50px;
+    display: flex;
+    gap: 5px;
+    /* background-color: darkgreen; */
+}
+
+.instlogo{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtubelogo{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebooklogo{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitterlogo{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    height: 50px;
+    display: flex;
+    background-color: white;
+}
+
+.navtext{
+    height: 50px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    /* background-color: darkorange; */
+}
+
+.navtext p{
+    position: absolute;
+    left: 80px;
+    color: black;
+}
+
+.navtools{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* background-color: fuchsia; */
+}
+
+.ule{
+    display: flex;
+    column-gap: 15px;
+}
+
+.ule li{
+    list-style-type: none;
+}
+
+.ule a{
+    text-decoration: none;
+    color: gray;
+}
+
+.navright{
+    height: 50px;
+    display: flex;
+    /* background-color: lime; */
+}
+
+.loginregister{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* background-color: greenyellow; */
+    color: rgb(0, 174, 255);
+}
+
+.navlogos{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* background-color: gold; */
+    color: rgb(0, 174, 255);
+}
+
+.midle{
+    height: 550px;
+    background-color: #96E9FB;
+    display: flex;
+    position: absolute;
+    left: 55px;
+    top: 150px;
+    border-radius: 50px;
+    background-image: url("kucheravayababa.png");
+    background-size: cover;
+    background-position: left;
+}
+
+.heading{
+    height: 50px;
+    color: rgb(0, 119, 255);
+    display: flex;
+    position: absolute;
+    /* background-color: blueviolet; */
+    top: 100px;
+    left: 100px;
+}
+
+.newcollection{
+    height: 100px;
+    display: flex;
+    position: absolute;
+    /* background-color: brown; */
+    top: 150px;
+    left: 110px;
+    font-size: 35px;
+}
+
+.midletext{
+    height: 50px;
+    display: flex;
+    position: absolute;
+    /* background-color: chartreuse; */
+    top: 250px;
+    left: 110px;
+    color: gray;
+}
+
+.midletext p{
+    text-align-last: center;
+}
+
+.midlebutton{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 110px;
+    top: 322px;
+    border-radius: 15px;
+    background-color: rgb(0, 81, 255);
+    font-size: 25px;
+    color: white;
+}
